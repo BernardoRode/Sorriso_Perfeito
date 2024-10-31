@@ -17,6 +17,7 @@ body {
     width: 80%;
     margin: 0 auto;
     padding: 20px 0;
+
 }
 
 header {
@@ -140,10 +141,9 @@ nav {
     margin: 20px;
     flex: 0 0 auto;
     min-width: 100%;
-    scroll-snap-align: start;
     text-align: center;
     padding: 20px;
-    box-sizing: border-box;
+    
 }
 
 
