@@ -1,4 +1,4 @@
-# 🦷 Consultório dentario
+# *🦷* Consultório dentario
 
 ![Logo do Consultório](img/1_processed (1))
 
