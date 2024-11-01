@@ -29,7 +29,7 @@ header {
     width: 100%;
     top: 0;
     z-index: 1000;
-    
+
 }
 
 .logo {
@@ -81,39 +81,6 @@ nav {
     display: none;
 }
 
-@media screen and (max-width: 600px) {
-    #file {
-        display: none;
-    }
-
-    #botao {
-        display: block;
-    }
-
-
-    .mobile-menu-icon {
-        display: block;
-        cursor: pointer;
-    }
-
-    .menu-icon {
-        display: none;
-    }
-
-    .menu-icon.open {
-        display: block;
-        background-color: transparent;
-        border: none;
-    }
-
-    .nav-links-mobile {
-        display: none;
-        padding: 1.5rem 4rwm;
-    }
-
-}
-
-
 .bem-vindo {
 
     background-color: #f4f4f4;
@@ -133,8 +100,6 @@ nav {
 
 .slider {
     display: flex;
-    overflow-x: auto;
-    scroll-snap-type: x mandatory;
 }
 
 .slide {
@@ -143,7 +108,7 @@ nav {
     min-width: 100%;
     text-align: center;
     padding: 20px;
-    
+
 }
 
 
@@ -272,7 +237,6 @@ footer {
 }
 
 .redes-sociais a:hover {
-
     transform: scale(1.2);
 }
 
@@ -280,16 +244,44 @@ footer {
     width: 30px;
 }
 
+.next-button,
 .prev-button {
     position: absolute;
     top: 50%;
-    left: 9%;
     padding: 5px;
 }
 
+.prev-button {
+    left: 11%;
+}
+
 .next-button {
-    position: absolute;
-    top: 50%;
-    left: 90%;
-    padding: 5px;
+    left: 91%;
+}
+
+
+@media screen and (max-width: 600px) {
+
+    .nav-links,
+    #botao,
+    .hamburguerMenu,
+    .slider,
+    .next-button,
+    .prev-button {
+        display: none;
+    }
+
+    .slider {
+        flex-direction: column-reverse;
+    }
+
+    .container {
+        flex-direction: column-reverse;
+    }
+    .promocoes{
+        flex-direction: column-reverse;
+    }
+    .bem-vindo{
+        flex-direction: column-reverse;
+    }
 }
