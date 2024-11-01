@@ -1,6 +1,6 @@
 # *🦷* Consultório dentario
 
-![Logo do Consultório](1_processed (1).png)
+![Logo do Consultório](1_processed (1))
 
 ---
 
