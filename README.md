@@ -2,6 +2,7 @@
 
 ## 👥 Integrantes
 
+
 - [![Bernardo Rode](https://github.com/BernardoRode.png?size=80)](https://github.com/BernardoRode)  
   **Bernardo Rode**
 
