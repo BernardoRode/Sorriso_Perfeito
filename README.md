@@ -1,9 +1,5 @@
 # *🦷* Consultório dentario
 
-![Logo do Consultório](img/1_processed (1))
-
----
-
 ## 👥 Integrantes
 
 - [![Bernardo Rode](https://github.com/BernardoRode.png?size=80)](https://github.com/BernardoRode)  
