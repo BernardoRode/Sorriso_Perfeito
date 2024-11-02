@@ -25,8 +25,8 @@
                 <li><a href="#sobre">Sobre</a></li>
                 <li><a href="#promocoes">Promoções</a></li>
                 <li><a href="#produtos">Produtos</a></li>
+                <li><a href="#login1">Novidades</a></li>
                 <li><a href="#contato">Contato</a></li>
-                <li><a href="indexform.html">Novidades</a></li>
             </ul>
         </nav>
         <a href="#" id="botao" onclick="toggleHamburguerMenu()"> <img src="img/1_processed (1).png" alt=""></a>
@@ -37,7 +37,7 @@
                 <li><a href="#promocoes">Promoções</a></li>
                 <li><a href="#produtos">Produtos</a></li>
                 <li><a href="#contato">Contato</a></li>
-                <li><a href="indexFom.html">Novidades</a></li>
+                <li><a href="#login1">Novidades</a></li>
             </ul>
         </nav>
     </header>
@@ -119,17 +119,62 @@
 
     <section id="galeria" class="galeria">
         <div class="container">
-            <h2>Promoções</h2>
-            <div class="slider">
-                <div class="slide">
-                    <img src="img/julho-laranja-beneficios-do-tratamento-ortodontico-precoce.jpg" alt="Promoção 1">
+            <h2 class="h2">Modelos de aparelho</h2>
+            <div class="grid-produtos">
+                <div class="card-produto2">
+                    <img src="img/valencia.png" alt="Produto 1">
+                    <h3>Valencia</h3>
+                    <p> É o tipo mais comum. Possui bandas, fios, bráquetes e borrachinhas coloridas que garantem a
+                        movimentação dos dentes para a posição correta. </p>
                 </div>
-                <div class="slide">
-                    <img src="img/quais-casos-podem-ser-tratados-com-invisalign.jpg" alt="Promoção 2">
+                <div class="card-produto2">
+                    <img src="img/neymar.png" alt="Produto 2">
+                    <h3>Neymar</h3>
+                    <p>O aparelho tem formas mais arredondadas e menores. Dispensa o uso das borrachinhas, pois o fio
+                        ortodôntico é preso diretamente nos bráquetes.</p>
                 </div>
-                <div class="slide">
-                    <img src="img/existe-diferenca-aparelhos-tradicionais-alinhadores-invisiveis.jpg" alt="Promoção 3">
+                <div class="card-produto2">
+                    <img src="img/vini.png" alt="Produto 4">
+                    <h3>Vini Jr</h3>
+                    <p>É o tipo mais comum. Possui bandas, fios, bráquetes e borrachinhas coloridas que garantem a
+                        movimentação dos dentes para a posição correta.
+                    </p>
                 </div>
+                <div class="card-produto2">
+                    <img src="img/coutinho.png" alt="Produto 5">
+                    <h3>Coutinho</h3>
+                    <p>São placas removíveis feitas a partir de modelos digitais dos dentes do paciente. O uso é
+                        praticamente imperceptível, pois o material é de espessura ultrafina e transparente.</p>
+                </div>
+            </div>
+    </section>
+
+    <section id="contador" class="contador">
+        <div class="container">
+            <h2>Contagem Regressiva para a Inauguração</h2>
+            <div id="relogio-digital"></div>
+        </div>
+    </section>
+
+    <section>
+        <div id="login1">
+            <div class="boxlogin">
+                <h2 class="h2">Receber noticias</h2>
+                <form action="https://formsubmit.co/bernardorode07@gmail.com" method="POST">
+                    <div class="input-box">
+                        <span class="icon"><ion-icon name="mail"></ion-icon></span>
+                        <input type="email" placeholder="E-mail" required>
+                    </div>
+                    <br>
+                    <div class="input-box">
+                        <span class="icon"><ion-icon name="person"></ion-icon></span>
+                        <input type="text" placeholder="Nome:" required>
+                    </div>
+                    <div class="btlogin">
+                        <button class="btlogin"><a href="index.html">Entrar</a></button>
+                    </div>
+
+                </form>
             </div>
         </div>
     </section>

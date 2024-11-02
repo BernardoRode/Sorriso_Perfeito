@@ -20,9 +20,14 @@ body {
 
 }
 
+.login1 {
+    margin: 10px 0px 10px 0px;
+    background-color: #87CEFA;
+}
+
 header {
 
-    background-color: #333;
+    background-color: #4682B4;
     color: #fff;
     padding: 10px 0;
     position: fixed;
@@ -83,18 +88,19 @@ nav {
 
 .bem-vindo {
 
-    background-color: #f4f4f4;
+    background-color: #87CEFA;
     padding: 100px 0;
     text-align: center;
     font-family: "Lora", serif;
-    margin: 10px;
+    margin: 10px 0px 10px 0px;
 }
 
 
 .sobre {
-    background-color: #fff;
+    background-color: #87CEFA;
     padding: 80px 0;
     text-align: center;
+    margin: 10px 0px 10px 0px;
 }
 
 
@@ -131,19 +137,26 @@ nav {
 
 .promocoes {
     padding: 20px 0;
-    background-color: #f5f5f5;
+    background-color: #87CEFA;
     text-align: center;
 }
 
 .produtos {
     padding: 80px 0;
     text-align: center;
+    background-color: #87CEFA;
+    margin: 0px 0px 10px 0px;
 }
 
 .grid-produtos {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 20px;
+}
+
+.galeria {
+    background-color: #87CEFA;
+    margin: 10px 0px 10px 0px;
 }
 
 .card-produto {
@@ -159,6 +172,18 @@ nav {
     margin-bottom: 10px;
 }
 
+.card-produto2 img {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.card-produto2 {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
 
 .inscricao {
     background-color: #f4f4f4;
@@ -204,10 +229,11 @@ form button:hover {
 }
 
 .contador {
-    background-color: #333;
+    background-color: #87CEFA;
     color: #fff;
     padding: 80px 0;
     text-align: center;
+    margin: 10px 0px 10px 0px;
 }
 
 #countdown {
@@ -217,7 +243,7 @@ form button:hover {
 
 /* Footer */
 footer {
-    background-color: #333;
+    background-color: #4682B4;
     color: #fff;
     padding: 20px 0;
     text-align: center;
@@ -248,17 +274,50 @@ footer {
 .prev-button {
     position: absolute;
     top: 50%;
-    padding: 5px;
+    padding: 10px;
+    border-radius: 15px;
 }
 
 .prev-button {
-    left: 11%;
+    left: 10%;
 }
 
 .next-button {
     left: 91%;
 }
 
+.h2 {
+    text-align: center;
+}
+
+.input-box {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px, 0;
+}
+
+form {
+    margin-top: 20px;
+
+}
+
+.btlogin {
+    background-color: aqua;
+    color: #fff;
+    border-radius: 10px;
+}
+
+.boxlogin {
+    background-color: #87CEFA;
+    padding: 100px 0;
+    text-align: center;
+    font-family: "Lora", serif;
+    margin: 10px 0px 10px 0px;
+}
+h1,h2{
+    color: white;
+}
 
 @media screen and (max-width: 600px) {
 
@@ -267,7 +326,8 @@ footer {
     .hamburguerMenu,
     .slider,
     .next-button,
-    .prev-button {
+    .prev-button,
+    .promocoes {
         display: none;
     }
 
@@ -278,10 +338,12 @@ footer {
     .container {
         flex-direction: column-reverse;
     }
-    .promocoes{
+
+    .promocoes {
         flex-direction: column-reverse;
     }
-    .bem-vindo{
+
+    .bem-vindo {
         flex-direction: column-reverse;
     }
 }
