@@ -1,4 +1,4 @@
-# *🦷* Consultório dentario
+# 🦷 Consultório dentario
 
 ## 👥 Integrantes
 
